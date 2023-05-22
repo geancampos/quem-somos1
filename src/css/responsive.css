@@ -1,0 +1,1350 @@
+@media (max-width: 1024px) {
+    * {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .nossa-missao {
+        width: 90%;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+
+    .nossa-missao .imagens-missao img {
+        width: 250px;
+        height: 350px;
+    }
+
+
+    .descricao-missao h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .descricao-missao h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    .nossos-valores {
+        width: 90%;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+
+    .imagens-valores {
+        height: 350px;
+    }
+
+    .descricao-valores h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .descricao-valores h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .nossa-historia {
+        justify-content: center;
+        text-align: justify;
+        margin-top: 15px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .nossa-historia h1 {
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+
+    .nossa-historia h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .descricao-time h1 {
+        justify-content: left;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+
+    
+    .nosso-time {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nosso-time .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .descricao-time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90%;
+    }
+
+    .barra-vertical {
+        display: none;
+    }
+
+    .descricao-time h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .descricao-time h3 {
+        font-size: 20px;
+    }
+
+    
+    .content {
+        width: 180px;
+        height: 180px;
+        padding: 2px;
+        transition: none;
+
+    }
+
+    .content ul li img {
+        width: 40px;
+    }
+
+    .content h2 {
+        margin-top: 5px;
+        display: block;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .content span {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+    }
+
+    .imgBox {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        transition: none;
+    }
+
+    .imgBox img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container .box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .box .content {
+        transition: none;
+    }
+
+    .content ul {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+      }
+    
+      .content ul li {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        list-style: none;
+      }
+    
+    
+      .content ul li img {
+        width: 35px;
+      }
+      
+      .content h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+      }
+      
+      .content span {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .container .box:hover .imgBox {
+        transform: none;
+      }
+      
+      .container .box:hover .content {
+        transform: none;
+      }
+
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 700px) and (max-width: 800px) {
+
+    header {
+        width: 90%;
+    }
+
+    
+
+    header nav ul li {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+
+    .nossa-missao h3 {
+        font-size: 18px;
+
+    }
+
+    .nossa-missao .imagens-missao {
+        width: 450px;
+    }
+
+    .nossa-missao .imagens-missao img {
+        margin-right: 15px;
+        width: 220px;
+        height: 320px;
+    }
+
+    .nossos-valores .imagens-valores {
+        margin-left: 0;
+    }
+
+    .nossos-valores .imagens-valores img {
+        width: 450px;
+    }
+
+    .nossos-valores .descricao-valores h3 {
+        font-size: 18px;
+        margin-right: 40px;
+
+    }
+
+    .nossa-historia h3 {
+        font-size: 18px;
+    }
+
+
+    .nosso-time {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nosso-time .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .descricao-time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .barra-vertical {
+        display: none;
+    }
+
+    .descricao-time h1 {
+        margin-bottom: 20px;
+    }
+
+    .descricao-time h3 {
+        width: 92%;
+        font-size: 18px;
+
+    }
+
+    .barra-vertical {
+        width: 8px;
+        height: 1300px;
+        background-color: #FF6E15;
+    }
+
+    .content {
+        width: 180px;
+        height: 180px;
+        padding: 2px;
+        transition: none;
+
+    }
+
+    .content ul li img {
+        width: 40px;
+    }
+
+    .content h2 {
+        margin-top: 5px;
+        display: block;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .content span {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+    }
+
+    .imgBox {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        transition: none;
+    }
+
+    .imgBox img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container .box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .box .content {
+        transition: none;
+    }
+
+    .content ul {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+      }
+    
+      .content ul li {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        list-style: none;
+      }
+    
+    
+      .content ul li img {
+        width: 35px;
+      }
+      
+      .content h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+      }
+      
+      .content span {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .container .box:hover .imgBox {
+        transform: none;
+      }
+      
+      .container .box:hover .content {
+        transform: none;
+      }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+    * {
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    header nav ul .quem-somos {
+        color: #B77B4F;
+        font-weight: bold;
+    }
+    
+    header nav ul li {
+        display: flex;
+        font-size: 10px;
+        margin-right: 10px;
+        margin-top: 18px;
+    }
+    
+    header ul li a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    header button {
+        background-color: #FF6E15;
+        width: 55px;
+        height: 23px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    header button a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nossa-missao {
+        height: 200px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nossa-missao .imagens-missao img {
+        width: 100px;
+        height: 160px;
+        margin-right: 5px;
+    }
+
+
+    .descricao-missao h1 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .descricao-missao h3 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+
+    .nossos-valores {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .nossos-valores .imagens-valores {
+        margin-left: 0;
+        margin-right: 0px;
+        height: 140px;
+        width: 60%;
+    }
+
+    .descricao-valores {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+
+    .nossos-valores .descricao-valores h1 {
+        width: 115%;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .nossos-valores .descricao-valores h3 {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    .nossa-historia {
+        justify-content: center;
+        text-align: justify;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nossa-historia h1 {
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .nossa-historia h3 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .descricao-time h1 {
+        justify-content: left;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+
+    .descricao-time h3 {
+        justify-content: left;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .nosso-time {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nosso-time .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .descricao-time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .barra-vertical {
+        display: none;
+    }
+
+    .descricao-time h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .descricao-time h3 {
+        font-size: 10px;
+    }
+
+    .barra-vertical {
+        width: 8px;
+        height: 1300px;
+        background-color: #FF6E15;
+    }
+
+    .content {
+        width: 180px;
+        height: 180px;
+        padding: 2px;
+        transition: none;
+
+    }
+
+    .content ul li img {
+        width: 40px;
+    }
+
+    .content h2 {
+        margin-top: 5px;
+        display: block;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .content span {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+    }
+
+    .imgBox {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        transition: none;
+    }
+
+    .imgBox img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container .box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .box .content {
+        transition: none;
+    }
+
+    .content ul {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+      }
+    
+      .content ul li {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        list-style: none;
+      }
+    
+    
+      .content ul li img {
+        width: 35px;
+      }
+      
+      .content h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+      }
+      
+      .content span {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .container .box:hover .imgBox {
+        transform: none;
+      }
+      
+      .container .box:hover .content {
+        transform: none;
+      }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 376px) {
+
+
+    header .quem-somos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 69px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .imagens-missao {
+        width: 200px;
+    }
+
+    .nossa-missao h1 {
+        font-size: 15px;
+    }
+
+    .nossa-missao h3 {
+        font-size: 9px;
+    }
+
+    .nossos-valores {
+        width: 90%;
+    }
+
+    .descricao-valores {
+        margin-right: 20px;
+    }
+
+    .descricao-valores h1 {
+        font-size: 15px
+    }
+
+    .descricao-valores h3 {
+        font-size: 9px;
+    }
+
+
+    .imagens-valores {
+        height: 140px;
+    }
+
+
+    .nossa-historia h1 {
+        font-size: 15px;
+    }
+
+    .nossa-historia h3 {
+        font-size: 9px;
+    }
+
+
+    .nosso-time h1 {
+        font-size: 15px;
+    }
+
+    .nosso-time h3 {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 393px) {
+
+    
+    header nav ul {
+        margin-right: 5px;
+    }
+
+    header nav ul li {
+        font-size: 9px;
+    }
+
+    header button {
+        width: 50px;
+        height: 22px;
+    }
+
+    header button a {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+
+    
+    header .logo img {
+        width: 40px
+    }
+
+    header nav ul {
+        margin-right: 5px;
+    }
+
+    header nav ul li {
+        font-size: 9px;
+    }
+
+    header button {
+        width: 40px;
+        height: 22px;
+    }
+
+    header button a {
+        font-size: 9px;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 680px) and (max-width: 688px) {
+
+    header {
+        width: 90%;
+    }
+
+
+    header .quem-somos {
+        width: 130px;
+    }
+
+    header .logo img {
+        width: 70px;
+    }
+
+    header nav ul {
+        width: 435px;
+     }
+
+    header nav ul li {
+        margin-left: 15px;
+        margin-right: 0;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    header button {
+        margin-left: 15px;
+        width: 150%;
+        height: 38px;
+    }
+
+    header button a {
+        font-size: 15px;
+    }
+
+
+    .nossa-missao {
+        height: 320px;
+    }
+
+    .nossa-missao .imagens-missao img {
+        margin-right: 8px;
+        width: 180px;
+        height: 280px;
+    }
+
+    .nossa-missao h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .nossa-missao h3 {
+        font-size: 18px;
+    }
+
+
+    .nossos-valores {
+        height: 290px;
+    }
+
+    .nossos-valores h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .nossos-valores h3 {
+        font-size: 18px;
+    }
+
+    .nossos-valores .imagens-valores {
+        margin-left: 8px;
+    }
+
+    .nossos-valores .imagens-valores img {
+        height: 280px;
+    }
+
+
+    .nossa-historia h1 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .nossa-historia h3 {
+        font-size: 18px;
+    }
+
+
+    .descricao-time h1 {
+        justify-content: left;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+
+    .descricao-time h3 {
+        justify-content: left;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .nosso-time {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nosso-time .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .descricao-time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90%;
+    }
+
+    .barra-vertical {
+        display: none;
+    }
+
+    .descricao-time h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .descricao-time h3 {
+        font-size: 18px;
+    }
+
+    
+    .content {
+        width: 180px;
+        height: 180px;
+        padding: 2px;
+        transition: none;
+
+    }
+
+    .content ul li img {
+        width: 40px;
+    }
+
+    .content h2 {
+        margin-top: 5px;
+        display: block;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .content span {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+    }
+
+    .imgBox {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        transition: none;
+    }
+
+    .imgBox img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container .box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .box .content {
+        transition: none;
+    }
+
+    .content ul {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+      }
+    
+      .content ul li {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        list-style: none;
+      }
+    
+    
+      .content ul li img {
+        width: 35px;
+      }
+      
+      .content h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+      }
+      
+      .content span {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .container .box:hover .imgBox {
+        transform: none;
+      }
+      
+      .container .box:hover .content {
+        transform: none;
+      }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 590px) and (max-width: 600px) {
+
+    header {
+        width: 88%;
+    }
+
+
+    header .quem-somos {
+        width: 120px;
+    }
+
+    header .logo img {
+        width: 50px;
+    }
+
+    header nav ul {
+        width: 400px;
+     }
+
+    header nav ul li {
+        margin-left: 15px;
+        margin-right: 0;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    header button {
+        width: 100px;
+        height: 38px;
+    }
+
+    header button a {
+        font-size: 15px;
+    }
+
+
+    .nossa-missao {
+        height: 290px;
+    }
+
+    .nossa-missao .imagens-missao img {
+        margin-right: 5px;
+        width: 150px;
+        height: 250px;
+    }
+
+    .nossa-missao h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .nossa-missao h3 {
+        font-size: 16px;
+    }
+
+
+    .nossos-valores {
+        height: 280px;
+    }
+
+    .nossos-valores h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .nossos-valores h3 {
+        font-size: 16px;
+    }
+
+    .nossos-valores .imagens-valores {
+        margin-left: 8px;
+    }
+
+    .nossos-valores .imagens-valores img {
+        width: 350px;
+        height: 280px;
+    }
+
+
+    .nossa-historia h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .nossa-historia h3 {
+        font-size: 16px;
+    }
+
+    .nosso-time h1 {
+        font-size: 25px;
+    }
+
+    .nosso-time h3 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+
+    header {
+        height: 40px;
+    }
+
+    header .logo {
+        width: 15px;
+     }
+
+    header nav ul {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        align-items: center;
+        float: left;
+        margin: 0;
+        width: 200px;
+     }
+
+    header nav ul li {
+        margin: 0;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    header button {
+        width: 35px;
+    }
+
+    header button a {
+        font-size: 9px;
+    }
+
+    .nossa-missao {
+        height: 190px;
+    }
+
+    .nossa-missao .imagens-missao .card-direita {
+        display: none;
+    }
+
+    .nossa-missao .imagens-missao .card-esquerda {
+        margin-right: 5px;
+        margin-top: 0;
+        width: 120px;
+        height: 150px;
+    }
+
+    .nossa-missao h1 {
+        margin-bottom: 12px;
+        font-size: 17px;
+    }
+
+    .nossa-missao h3 {
+        font-size: 11px;
+    }
+
+
+    .nossos-valores {
+        width: 285px;
+        height: 160px;
+    }
+
+    .nossos-valores .descricao-valores {
+        margin: 0;
+        width: 130px;
+    }
+
+    .nossos-valores .descricao-valores h1 {
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+
+    .nossos-valores h3 {
+        font-size: 11px;
+    }
+
+    .nossos-valores .imagens-valores {
+        width: 170px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 7px;
+        
+    }
+
+    .nossos-valores .imagens-valores img {
+        margin: 0;
+        width: 150px;
+        height: 110px;
+    }
+
+
+    .nossa-historia h1 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 17px;
+    }
+
+    .nossa-historia h3 {
+        font-size: 11px;
+    }
+
+    .nosso-time h1 {
+        font-size: 17px;
+    }
+
+    .nosso-time h3 {
+        font-size: 11px;
+    }
+}
